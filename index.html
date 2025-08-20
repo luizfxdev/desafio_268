@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taça das Casas - Desafio Mágico</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Taça das Casas 🏆🧙‍♂️✨</h1>
+      <p class="description">Insira os poderes das quatro casas para descobrir quem vence a competição anual!</p>
+
+      <div class="houses-grid">
+        <div class="house">
+          <label for="corvinal">Corvinal</label>
+          <input type="number" id="corvinal" placeholder="Pontos de Corvinal" />
+        </div>
+        <div class="house">
+          <label for="grifinoria">Grifinória</label>
+          <input type="number" id="grifinoria" placeholder="Pontos de Grifinória" />
+        </div>
+        <div class="house">
+          <label for="lufaLufa">Lufa-Lufa</label>
+          <input type="number" id="lufaLufa" placeholder="Pontos de Lufa-Lufa" />
+        </div>
+        <div class="house">
+          <label for="sonserina">Sonserina</label>
+          <input type="number" id="sonserina" placeholder="Pontos de Sonserina" />
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="glow-on-hover" id="revealBtn" type="button">REVELAR</button>
+        <button class="glow-on-hover" id="backBtn" type="button">VOLTAR</button>
+      </div>
+
+      <div class="result-section">
+        <h2>Resultado</h2>
+        <div id="result"></div>
+        <div id="calculation"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
