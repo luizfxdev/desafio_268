@@ -1,8 +1,8 @@
-🏆 Taça das Casas - Desafio Mágico
+# 🏆 Taça das Casas - Desafio Mágico
 
 Uma aplicação web interativa que determina a casa vencedora com base nos poderes de Corvinal, Grifinória, Lufa-Lufa e Sonserina.
 
-✨ Funcionalidades
+## ✨ Funcionalidades
 
 Interface temática de Harry Potter com design responsivo
 
@@ -16,7 +16,7 @@ Exibição detalhada do processo de cálculo
 
 Layout adaptável para diferentes tamanhos de tela
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 HTML5
 
@@ -26,7 +26,7 @@ JavaScript (ES6)
 
 Design responsivo com Media Queries
 
-🎨 Características do Design
+## 🎨 Características do Design
 
 Background com imagem temática de fantasia/magia
 
@@ -40,7 +40,7 @@ Tipografia elegante e temática
 
 Layout organizado e intuitivo
 
-📱 Responsividade
+## 📱 Responsividade
 
 A aplicação é totalmente responsiva e se adapta a:
 
@@ -50,7 +50,7 @@ Tablets (layout com 2 colunas)
 
 Smartphones (layout com 1 coluna)
 
-🚀 Como Usar
+## 🚀 Como Usar
 
 Insira os valores de poder para cada casa nos campos correspondentes
 
@@ -60,11 +60,11 @@ O sistema calculará e exibirá a casa vencedora ou empate
 
 Use o botão "VOLTAR" para limpar os campos e realizar um novo cálculo
 
-📝 Lógica do Cálculo
+## 📝 Lógica do Cálculo
 
 O sistema verifica qual casa tem a maior pontuação. Em caso de empate entre duas ou mais casas, retorna "Empate entre as casas!".
 
-🌐 Compatibilidade
+## 🌐 Compatibilidade
 Compatível com todos os navegadores modernos que suportam:
 
 CSS Grid
